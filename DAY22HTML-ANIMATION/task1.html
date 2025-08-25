@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .all{ margin-top: 200px;
+              margin-left: 100px;
+            
+        }
+        .circle1{ background-color: blue;
+                  width: 100px;
+                  height: 100px;
+                  border-radius: 360px;
+                  animation: circle 3s linear infinite 1s alternate-reverse;
+                  z-index: 1;
+                  position: absolute;
+                 }
+
+       
+        .circle2{ background-color:greenyellow;
+                  width: 100px;
+                  height: 100px;
+                  border-radius: 360px;
+                  animation: circle 3s linear infinite 1.5s alternate-reverse;
+                  z-index: 1;
+                  position: absolute;
+                 }
+                 
+      
+         
+                 
+        .circle3{ background-color:red;
+                  width: 100px;
+                  height: 100px;
+                  border-radius: 360px;
+                  animation: circle 3s linear infinite 2s alternate-reverse;
+                  z-index: 1;
+                  position: absolute;
+                 }  
+                
+        
+
+        @keyframes circle{
+            0%{ position: absolute;
+                z-index: 1;
+                transform: translate(0px, 0px);
+               }
+
+            20%{ position: absolute;
+                 z-index: 1;
+                 transform: translate(240px, 200px);
+                }    
+
+            40%{ position: absolute;
+                 z-index: 1;
+                 transform: translate(480px, 0px);
+               }    
+
+            60%{ position: absolute;
+                 z-index: 1;
+                 transform: translate(720px, 200px);
+               }   
+
+            80%{ position: absolute;
+                 z-index: 1;
+                 transform: translate(960px, 0px);
+               }   
+
+            100%{  position: absolute;
+                   z-index: 1;
+                   transform: translate(1200px, 200px);
+                }   
+
+        }          
+                 
+                 
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div  class="all">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </div>
+</body>
+</html>
