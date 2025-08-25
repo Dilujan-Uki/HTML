@@ -1,0 +1,6 @@
+p{ color: blueviolet;}
+img{ border-top: 20px dotted red;
+      border-bottom: 20px double greenyellow;
+     border-left: 20px ridge blue;
+    border-right: 20px groove yellow;}
+img{ margin: 50px 20px;}

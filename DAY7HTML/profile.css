@@ -1,0 +1,17 @@
+img{
+    width: 350px;
+    border:10px solid orange;
+     }
+p{
+    background-color: yellow;
+    border: 4px dashed orange;
+    width: 350px;
+    }    
+body{ background-color: bisque;
+     border: 4px solid red;
+      padding:10px;
+      margin: 150px;
+      background-image: url(/home/uki-dsa-01/Downloads/eye2.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }

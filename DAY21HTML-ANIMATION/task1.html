@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <style>
+        body{ padding: 10px;
+             margin-left: 800px;
+             }
+        .div1{ background-color: red;
+             width: 200px;
+             height: 200px;
+             transition: 5s ease ;
+             border-radius: 40px;
+             animation: box1 5s ease infinite ;
+             animation-direction: normal;
+             margin: 10px;
+             
+            
+             
+
+            }
+
+        .div2{ background-color: red;
+             width: 200px;
+             height: 200px;
+            margin: 10px;
+             transition: 5s ease ;
+             border-radius: 40px;
+             animation: box1 5s ease infinite;
+             animation-direction:reverse;
+            } 
+
+        .div3{ background-color: red;
+             width: 200px;
+             height: 200px;
+             margin: 10px;
+             transition: 5s ease ;
+             border-radius: 40px;
+             animation: box1 5s ease infinite;
+             animation-direction: alternate;
+            }    
+
+        .div4{ background-color: red;
+             width: 200px;
+             height: 200px;
+             margin: 10px;
+             transition: 5s ease ;
+             border-radius: 40px;
+             animation: box1 5s ease infinite;
+             animation-direction: alternate-reverse;
+            }    
+
+
+
+           
+        div:hover{ transform: translate(600px);
+                
+                   
+                 }  
+                 
+        @keyframes box1{
+            20%{ background-color: greenyellow; }
+            40%{ background-color: aqua;}
+            60%{ background-color: goldenrod;}
+            80%{ background-color: limegreen;}
+            100%{ background-color: purple;
+                  transform: translate(600px);
+            
+            }
+        }         
+
+    </style>
+    <title>ANIMATION2</title>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+</body>
+</html>
